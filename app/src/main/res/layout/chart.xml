@@ -48,8 +48,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_result_cat"
-        app:srcCompat="@drawable/bmi_chart" />
-
+        app:srcCompat="@drawable/bmichart" />
 
 
 

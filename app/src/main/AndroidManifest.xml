@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name="com.example.bmiCal.Chart"></activity>
         <activity android:name="com.example.bmiCal.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,6 +17,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.bmiCal.Settings"
+            android:label="@string/action_about"
+            android:parentActivityName="com.example.bmiCal.MainActivity"/>
     </application>
 
 </manifest>
