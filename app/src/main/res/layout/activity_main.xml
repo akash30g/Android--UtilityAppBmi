@@ -25,6 +25,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/textViewResult"
         android:layout_width="wrap_content"
@@ -55,8 +56,7 @@
         android:layout_gravity="center_vertical|center_horizontal"
         android:layout_centerVertical="true"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginEnd="8dp"
+
         android:layout_marginRight="8dp"
         android:layout_marginTop="20dp"
         android:ems="10"
@@ -136,7 +136,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:padding="10dp"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -150,14 +150,11 @@
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_gravity="center_vertical|center_horizontal"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="20dp"
-        android:onClick="changePage"
-        android:text="?"
-        tools:layout_editor_absoluteX="268dp"
-        tools:layout_editor_absoluteY="145dp" />
+        android:text="Chart" />
+
 
 </android.support.v7.widget.LinearLayoutCompat>
