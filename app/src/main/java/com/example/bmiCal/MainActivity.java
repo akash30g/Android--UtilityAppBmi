@@ -44,6 +44,19 @@ public class MainActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
         }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        if (id == R.id.settings) {
+            Intent i = new Intent(this, Settings.class);
+            startActivity(i);
+            return true;
+        } else {
+            return super.onOptionsItemSelected(item);
+        }
+
+    }
 
 
     public void calcBMI(View view) {

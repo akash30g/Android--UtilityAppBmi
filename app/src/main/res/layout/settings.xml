@@ -7,14 +7,81 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Settings">
+    <TextView
+        android:id="@+id/textViewUnit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Choose Units"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textAlignment="center"
+        android:textSize="36sp"/>
 
 
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
 
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:textSize="20sp"
+            android:text="Metric" />
 
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:textSize="20sp"
+            android:text="Imperial" />
+    </RadioGroup>
 
+    <TextView
+        android:id="@+id/textViewTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Night Mode On/OFF"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textSize="36sp"/>
 
-
-
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="Switch"
+        android:textSize="20sp"
+        android:visibility="visible" />
 
 
 </android.support.v7.widget.LinearLayoutCompat>
